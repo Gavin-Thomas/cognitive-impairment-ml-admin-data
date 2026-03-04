@@ -2,7 +2,6 @@
 """
 CONFUSION MATRIX EXTRACTION SCRIPT
 Trains only specific models on specific tasks to extract confusion matrices.
-Uses identical settings to original_parallel.py for reproducibility.
 """
 
 import os
