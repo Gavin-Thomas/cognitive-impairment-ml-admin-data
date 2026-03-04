@@ -2,16 +2,6 @@
 """
 SECONDARY ANALYSIS: Including Age and Sex as Predictors
 
-This script runs the same ML pipeline as original_parallel.py but INCLUDES
-age and sex as predictor variables. This addresses reviewer comment (Nils
-Forkert #211, #359, #360) requesting a secondary/sensitivity analysis to
-quantify the contribution of demographics to model performance.
-
-Results are saved to a separate output directory for direct comparison with
-the primary analysis (which excludes age and sex).
-
-Usage:
-    python secondary_analysis_age_sex.py
 """
 
 import os
