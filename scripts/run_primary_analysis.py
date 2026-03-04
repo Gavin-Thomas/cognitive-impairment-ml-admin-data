@@ -1,12 +1,4 @@
 # fmt: off
-"""
-PARALLELIZED VERSION - Optimized for High-Performance Server (32 CPUs / 100GB RAM)
-Key changes:
-1. Parallel model training loop using joblib (8 models at a time)
-2. Parallelized bootstrap iterations (8 workers per model)
-3. Inner threading set to 2 for BLAS/LAPACK operations in tree-based models
-4. GridSearchCV uses 2 parallel CV folds
-"""
 
 import os
 import sys
