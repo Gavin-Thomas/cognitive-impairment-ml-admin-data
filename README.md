@@ -4,7 +4,7 @@ Classification of mild cognitive impairment (MCI) and dementia using 10 machine 
 
 ## Data Availability
 
-The dataset (`data/MAIN_new.csv`) is not included due to privacy restrictions on linked health records. The pipeline expects administrative health code counts, prescription records, and a `cognitive_status` target variable.
+The source dataset is not included due to privacy restrictions on linked health records. The pipeline expects administrative health code counts, prescription records, and a `cognitive_status` target variable.
 
 ## Setup
 
