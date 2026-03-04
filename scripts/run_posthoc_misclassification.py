@@ -2,10 +2,6 @@
 """
 POST-HOC ANALYSIS: Demographics of Misclassified Patients
 
-This script addresses reviewer comment #280 requesting analysis of whether
-certain demographic subgroups (age, sex, education, race) are more likely
-to be misclassified by the ML models.
-
 For each classification task, the best-performing model (by AUC-ROC) is
 loaded from the saved primary analysis results (joblib), and its predictions
 on the held-out test set are compared against the true labels. Patients are
