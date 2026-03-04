@@ -35,8 +35,7 @@ python scripts/run_posthoc_misclassification.py
 ```
 scripts/          Runnable entry-point scripts
 utils/            Shared modules (visualizations, statistical tests, epidemiology)
-data/             Input data (not included)
-output/           Generated results, figures, and trained models
+trained_models/           Generated results, figures, and trained models
 ```
 
 ## Key Methods
